@@ -1,5 +1,5 @@
 from flask import Flask, request
-from flask_cors import CORS      
+from flask_cors import CORS
 import os
 import openai
 import requests
@@ -37,11 +37,12 @@ def fetch_tmdb_movie(movie_title):
 @app.route('/recommend', methods=['POST'])
 def recommend_movies():
     prompt = request.json.get('prompt', '')
+    if not prompt:
+        return {"error": "Prompt is required"}, 400
     chat_response = get_movie_from_chatgpt(prompt)
     try:
-        # Split on hyphen and clean quotes from title
         movie_title, reason = chat_response.split(' - ', 1)
-        movie_title = movie_title.strip().strip('"')  # Remove quotes
+        movie_title = movie_title.strip().strip('"')
         reason = reason.strip()
     except ValueError:
         movie_title = chat_response
@@ -51,4 +52,5 @@ def recommend_movies():
     return movie_details
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    port = int(os.getenv("PORT", 5001))
+    app.run(host="0.0.0.0", port=port, debug=False)

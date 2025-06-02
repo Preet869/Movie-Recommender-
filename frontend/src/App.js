@@ -31,7 +31,7 @@ function App() {
             type="text"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder="e.g., Hindi movie for a family night"
+            placeholder="e.g., movie for a family night"
           />
           <button type="submit" disabled={loading}>
             {loading ? 'Rolling Film...' : 'Get Ticket'}
