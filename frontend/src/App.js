@@ -13,7 +13,7 @@ function App() {
     setError(null);
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5001/recommend', { prompt });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/recommend`, { prompt });
       setMovie(response.data);
     } catch (err) {
       setError('Failed to get recommendation. Is the backend running?');
