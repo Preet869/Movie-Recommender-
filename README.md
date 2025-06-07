@@ -3,3 +3,4 @@ Bulit this project to find movies easier, since its diffuclt finding movies when
 
 A Flask backend with React frontend to recommend movies using OpenAI and TMDB API as the movie database.
 
+Why: I wanted to create something that would help me endlesses scroll on netfliex, so I created a AI movie recommender. The AI will find a movie based on your prompt.
