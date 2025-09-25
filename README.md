@@ -104,3 +104,4 @@ Built this project to find movies easier, since it's difficult finding movies wh
 So hopefully it's a quicker way to find something to watch!
 
 The application essentially acts as an **intelligent movie concierge**, combining the power of AI language understanding with comprehensive movie databases to provide personalized recommendations in a user-friendly, visually appealing interface.
+
