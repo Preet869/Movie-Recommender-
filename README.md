@@ -4,6 +4,7 @@ This is a **full-stack web application** designed to help users find movies more
 
 ## Architecture Overview
 
+
 The application follows a **client-server architecture** with:
 
 - **Backend**: Flask (Python) API server
