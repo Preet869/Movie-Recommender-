@@ -6,6 +6,7 @@ This is a **full-stack web application** designed to help users find movies more
 
 The application follows a **client-server architecture** with:
 
+
 - **Backend**: Flask (Python) API server
 - **Frontend**: React.js web application
 - **AI Integration**: OpenAI GPT-3.5-turbo for movie recommendations
