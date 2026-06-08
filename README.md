@@ -2,6 +2,7 @@
 
 This is a **full-stack web application** designed to help users find movies more easily by providing AI-powered movie recommendations. The application addresses the common problem of "endless scrolling" on streaming platforms by offering intelligent movie suggestions based on user prompts.
 
+
 ## Architecture Overview
 
 The application follows a **client-server architecture** with:
