@@ -10,7 +10,9 @@ The application follows a **client-server architecture** with:
 - **AI Integration**: OpenAI GPT-3.5-turbo for movie recommendations
 - **Movie Database**: The Movie Database (TMDB) API for movie details
 
-## Core Functionality
+## 
+
+Core Functionality
 ### How It Works:
 1. **User Input**: Users enter a descriptive prompt (e.g., "movie for a family night", "scary horror movie", "romantic comedy")
 2. **AI Processing**: The prompt is sent to OpenAI's GPT-3.5-turbo model, which analyzes the request and suggests an appropriate movie title with a brief explanation
