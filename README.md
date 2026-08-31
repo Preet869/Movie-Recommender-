@@ -11,7 +11,6 @@ The application follows a **client-server architecture** with:
 - **Movie Database**: The Movie Database (TMDB) API for movie details
 
 ## 
-
 Core Functionality
 ### How It Works:
 1. **User Input**: Users enter a descriptive prompt (e.g., "movie for a family night", "scary horror movie", "romantic comedy")
